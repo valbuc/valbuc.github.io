@@ -1,2 +1,2 @@
 # valbuc.github.io
-My site for people to learn more about me. Feel free to check it out :) 
+My site to experiment with fun UI features and for people to learn more about me. Check it out at [valbuc.github.io](https://valbuc.github.io)
