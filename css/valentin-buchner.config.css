@@ -1734,3 +1734,14 @@ a:hover {
   width: 100%;
   margin: 0;
 }
+
+.company-link {
+    /* color: var(--text-primary); */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.company-link:hover {
+    /* color: var(--text-brand); */
+    text-decoration: underline;
+}
