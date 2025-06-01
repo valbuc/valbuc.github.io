@@ -23,6 +23,21 @@ const projects = [
     ]
   },
   {
+    title: "Prelovio: A software solution for second-hand store management",
+    image: "images/prelovio.png",
+    description: "A startup idea for a SaaS solution that allows second-hand stores to upload their inventory to all second hand marketplaces at once by only taking three pictures. Prelovio automatically creates professional looking images and an online ad ready to be published. Connected with online marketplaces, it handles purchases and requests in a single place.",
+    links: [
+        {
+        title: "Prototype",
+        url: "https://prelovium-847555285391.europe-west1.run.app/"
+        },
+        {
+        title: "Github",
+        url: "https://github.com/valbuc/prelovio"
+        }
+    ]
+  },
+  {
     title: "Enhancing Knowledge Graphs with LLMs - A Joint Project with Nobel Prize Outreach",
     image: "images/npo.webp",
     description: "In my MLE role at EQT Motherbrain, I had the opportunity to collaborate with Nobel Prize Outreach on enhanzing a Knowledge Graph of Nobel Prize Laureates with their respective fields of impact, mined from their biographies and Nobel Lectures.",

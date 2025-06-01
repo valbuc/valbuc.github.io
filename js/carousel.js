@@ -38,6 +38,31 @@ function initCarousel() {
     }
   }
 
+  function scrollToCard(targetCard) {
+    const cardRect = targetCard.getBoundingClientRect();
+    const carouselRect = carousel.getBoundingClientRect();
+    const cardCenter = cardRect.left + cardRect.width / 2;
+    const carouselCenter = carouselRect.left + carouselRect.width / 2;
+    const scrollAmount = cardCenter - carouselCenter;
+    
+    carousel.scrollBy({
+      left: scrollAmount,
+      behavior: 'smooth'
+    });
+  }
+
+  // Add click handlers for all cards
+  const cards = document.querySelectorAll('.carousel-card');
+  cards.forEach(card => {
+    card.addEventListener('click', (e) => {
+      // Only handle clicks on side cards
+      if (card.classList.contains('carousel-side')) {
+        e.preventDefault();
+        scrollToCard(card);
+      }
+    });
+  });
+
   carousel.addEventListener('scroll', () => {
     if (!ticking) {
       window.requestAnimationFrame(() => {

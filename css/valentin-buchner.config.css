@@ -1269,6 +1269,37 @@ a:hover {
   .div-block, .div-block-2, .div-block-3 {
     border-bottom: 1px solid #000;
   }
+
+  .eduexp-header {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+  .timeline-stack {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0 !important;
+  }
+  .timeline-divider {
+    display: none !important;
+  }
+  .timeline-divider svg {
+    width: 100%;
+    height: 40px;
+    min-height: 20px;
+    max-height: 40px;
+  }
+  .education-column, .experience-column {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+  .eduexp-card {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px 8px;
+    margin-bottom: 16px;
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1360,6 +1391,24 @@ a:hover {
 
   .div-block, .div-block-2 {
     border-bottom: 1px solid #000;
+  }
+
+  .eduexp-header {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .timeline-divider {
+    height: 24px;
+    margin: 8px 0;
+  }
+  .timeline-divider svg {
+    height: 24px;
+    min-height: 12px;
+    max-height: 24px;
+  }
+  .eduexp-card {
+    padding: 10px 2px;
+    font-size: 13px;
   }
 }
 
@@ -1695,6 +1744,12 @@ a:hover {
   opacity: 0.5;
   transform: scale(0.8);
   z-index: 0;
+  cursor: pointer;
+}
+
+.portfolio-stack .carousel-side:hover {
+  opacity: 0.7;
+  transform: scale(0.85);
 }
 
 .portfolio-stack .carousel-spacer {
@@ -1744,4 +1799,65 @@ a:hover {
 .company-link:hover {
     /* color: var(--text-brand); */
     text-decoration: underline;
+}
+
+.eduexp-header {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 24px;
+  color: var(--text-primary);
+}
+
+.timeline-stack {
+  position: relative;
+}
+.timeline-divider {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 60px;
+  min-width: 60px;
+  max-width: 60px;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  z-index: 1;
+  flex: none;
+  pointer-events: none;
+}
+.timeline-divider svg {
+  height: 100%;
+  width: 60px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+/* Remove connector pseudo-elements */
+.education-column .eduexp-card::after,
+.experience-column .eduexp-card::after {
+  display: none !important;
+}
+
+.eduexp-card {
+  background: var(--bg-primary);
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.06);
+  margin-bottom: 32px;
+  padding: 24px 32px;
+  position: relative;
+  transition: box-shadow 0.2s;
+}
+.eduexp-card:hover {
+  box-shadow: 0 6px 24px rgba(44, 62, 80, 0.12);
 }
