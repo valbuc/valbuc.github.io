@@ -1,8 +1,18 @@
 const experienceData = [
     {
-        period: "2024 - Present",
-        startDate: "2024-06-01",
+        period: "2025 - Present",
+        startDate: "2025-07-01",
         endDate: "Present",
+        timestamp: "2025-07-01",
+        title: "Chief Architect",
+        company: "Chapter Two",
+        companyLink: "https://www.chaptertwo.com/",
+        description: "Managing future-looking projects and strategic tech and data partnerships, while continuing with hands-on ML/backend/cloud/data engineering."
+    },
+    {
+        period: "2024 - 2025",
+        startDate: "2024-06-01",
+        endDate: "2025-06-30",
         timestamp: "2024-06-01",
         title: "Machine Learning Engineer",
         company: "Chapter Two",
