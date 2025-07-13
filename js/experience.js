@@ -17,7 +17,7 @@ const experienceData = [
         title: "Machine Learning Engineer",
         company: "Chapter Two",
         companyLink: "https://chaptertwo.com/",
-        description: "Building the worlds best music valuation engine to empower music creators. We use custom ML models and LLMs to structure, process, and validate music royalty income, and to project them into the future. Within one year, I deployed several ML solution into production, as well as agentic LLM integrations."
+        description: "Building the worlds best music valuation engine to empower music creators. We use custom ML models and LLMs to structure, validate, and forecast music royalty income. Within one year, I deployed several ML solutions into production, as well as agentic LLM integrations."
     },
     {
         period: "2023 - 2024",
