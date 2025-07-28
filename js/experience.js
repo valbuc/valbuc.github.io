@@ -47,7 +47,7 @@ const experienceData = [
         title: "Data Scientist",
         company: "Landscape AI",
         companyLink: "https://wearelandscape.com/en/",
-        description: "Building various ML Solutions, for instance a NER model to remove privacy sensitive data from medical records, and a language model to support customer service agents."
+        description: "Building various ML solutions, for instance a NER model to remove privacy sensitive data from medical records, and a language model to support customer service agents."
     },
     {
         period: "2021",
