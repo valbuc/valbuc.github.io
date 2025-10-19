@@ -7,7 +7,7 @@ const experienceData = [
         title: "Chief Architect",
         company: "Chapter Two",
         companyLink: "https://www.chaptertwo.com/",
-        description: "Managing future-looking projects and strategic tech and data partnerships, while continuing with hands-on ML/backend/cloud/data engineering."
+        description: "Managing forward-looking projects and strategic tech and data partnerships, while continuing with hands-on ML/backend/cloud/data engineering."
     },
     {
         period: "2024 - 2025",
@@ -17,7 +17,7 @@ const experienceData = [
         title: "Machine Learning Engineer",
         company: "Chapter Two",
         companyLink: "https://chaptertwo.com/",
-        description: "Building the worlds best music valuation engine to empower music creators. We use custom ML models and LLMs to structure, validate, and forecast music royalty income. Within one year, I deployed several ML solutions into production, as well as agentic LLM integrations."
+        description: "Building the worlds best music valuation engine to empower music creators. We use custom ML models and LLMs to structure, validate, and forecast music royalty income. Within one year, I deployed several ML solutions and agentic LLM integrations into production."
     },
     {
         period: "2023 - 2024",

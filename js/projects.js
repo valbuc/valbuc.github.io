@@ -44,7 +44,7 @@ const projects = [
     links: [
         {
         title: "Blog Post",
-        url: "https://motherbrain.ai/enhancing-knowledge-graphs-with-llms-a-novel-approach-to-keyword-extraction-and-synonym-merging-3b76b3813a54"
+        url: "https://medium.com/@valentin.buchner"
         },
     ]
   },
@@ -82,7 +82,7 @@ const projects = [
       },
       {
         title: "Blog Post",
-        url: "https://medium.com/motherbrain/how-eqt-motherbrain-uses-llms-to-map-companies-to-industry-sectors-d713e7923380"
+        url: "https://medium.com/@valentin.buchner"
       },
       {
         title: "Code",
